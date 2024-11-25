@@ -1,0 +1,234 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 53px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 70px 10px 71px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu__link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu__item {
+    border-right: 2px dotted #000000;
+    padding-right: 40px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    margin-top: 53px;
+    padding-top: 16px;
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* opacity: 0.6; не нужно - а то все элементы высветлит */
+}
+
+.subheader .subheader__logo {
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader__official {
+    /* margin-top: 16px; */
+    color: #ffffff;
+    font-size: 13px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.subheader__calls {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 400;
+}
+
+.subheader__phone {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subheader .subheader__btn {
+    width: 173px;
+    height: 46px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 329%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.21);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-style: none;
+    border-radius: 4px;
+}
+
+.promo {
+    padding: 151px 0 135px 0;
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center / cover no-repeat;
+}
+
+.promo__header {
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.promo__subheader {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.promo__descr {
+    margin-top: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+}
+
+.promo__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 116px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 329%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.21);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    padding: 0 24px 0 24px;
+}
+
+.label {
+    background-color: #000000;
+    width: 113px;
+    height: 24px;
+    padding: 4px 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 126%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+
+.item__circle {
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.rectangle__img {
+    width: 80px;
+    height: 66px;
+
+}
+
+.item__text {
+    width: 371px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reasons__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons__subtitle {
+    color: #1EACC7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 124%;
+}
+
+.reasons__descr {
+    width: 371px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
