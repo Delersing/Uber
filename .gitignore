@@ -46,3 +46,7 @@ _testmain.go
 #*.png
 #*.jpeg
 *.psd
+node_modules
+gulpfile.js
+package-lock.json
+package.json
